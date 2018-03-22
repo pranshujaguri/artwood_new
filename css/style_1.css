@@ -467,37 +467,41 @@ a.w3_agile_vimeo i:hover {
 /*-- banner-top --*/
 
 .w3layouts-banner-top1 {
-    background: url(../images/twonine1.jpg) no-repeat 0px 0px;
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)),url(../images/twonine1.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
     min-height: 780px;
+/*    opacity: 0.4;*/
 }
 
 .w3layouts-banner-top1 {
-    background: url(../images/slider11.jpg) no-repeat 0px 0px;
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.67)),url(../images/slider11.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
     min-height: 780px;
+    
+/*    opacity: 0.4;*/
 }
 
 .w3layouts-banner-top2 {
-    background: url(../images/slider12.jpg) no-repeat 0px 0px;
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.67)),url(../images/slider12.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
     min-height: 780px;
+/*    opacity: 0.4;*/
 }
 
 .w3layouts-banner-top3 {
-    background: url(../images/slider13.jpg) no-repeat 0px 0px;
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.67)),url(../images/slider13.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
