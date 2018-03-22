@@ -9,7 +9,7 @@
     <meta name="keywords" content="Artwood Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
     <script type="application/x-javascript">
-        addEventListener("load", function () {
+        addEventListener("load", function() {
             setTimeout(hideURLbar, 0);
         }, false);
 
@@ -19,34 +19,161 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     </script>
     <!-- //custom-theme -->
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/style_1.css" rel="stylesheet" type="text/css" media="all" />
     <!-- font-awesome-icons -->
     <link href="css/font-awesome.css" rel="stylesheet">
     <!-- //font-awesome-icons -->
-    <link href="//fonts.googleapis.com/css?family=Dosis:300,400,500,600,700" rel="stylesheet">
-    <link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet"> </head>
+    <link href="https://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
+    <style>
+        .nav>li>a {
+            position: relative;
+            display: block;
+            padding: 9px 11px;
+        }
+
+        .navbar-default .navbar-nav>li>a {
+            color: #fdfdfd;
+        }
+
+        .nav>.container {
+            /* padding-right: 15px; */
+            padding-left: 15px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        @media (min-width: 1200px) .nav>.container {
+            width: 1265px !important;
+        }
+
+        .navbar-default {
+            background-color: #2a4557;
+            border-color: #e7e7e7;
+        }
+
+        .navbar-default .navbar-nav>li>a:hover,
+        .navbar-default .navbar-nav>li>a:focus {
+            color: #ffaf40;
+            background-color: transparent;
+        }
+
+        .w3_agile_footer {
+            /* HEIGHT: 130%; */
+            padding: 0.1em 0 0.4em;
+            text-align: center;
+            background: #2a4557;
+            position: relative;
+            bottom: -15px;
+            width: 101%;
+            margin-top: 12px;
+            margin-bottom: -54px;
+        }
+    </style>
+</head>
 
 <body>
-   
-        <!--<div class="banner-inner_agile">
-            <h2>Gallery</h2> </div>
-         //banner -->
-    
+
     <!--/w3_short-->
-    <div class="services-breadcrumb">
+    <!--
+   <div class="services-breadcrumb">
         <div class="agile_inner_breadcrumb">
             <ul class="w3_short">
                 <li><a href="index.html">Home</a><i>|</i></li>
-                <li>MADE TO ORDERS</li>
+                <li>MADE TO OREDER </li>
             </ul>
         </div>
     </div>
+-->
+    <nav class="navbar navbar-default navbar-fixed-top cus_nav">
+        <div class="container" style="max-height: 50px;
+    width: auto;">
+            <h1> <a href="index.html"><img class="log" src="images/artwoodlogo%20transparent.png" alt="ARTWOOD" style="maxhieght: 50px;margin-top: 10px;max-width: 15pc;"/></a></h1>
+            <div class="agileinfo_social_icons">
+                <ul class="agileits_social_list">
+                    <li><a href="#" class="w3_agile_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a href="#" class="agile_twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a href="#" class="w3_agile_dribble"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+                    <li><a href="#" class="w3_agile_vimeo"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <nav class="navbar navbar-default navbar-fixed-top cus_nav" style="margin-top: 53px;">
+        <div class="container" style="background-color: #2a4557;max-height: 50px;width: auto; padding-right: 0px;">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <!--
+                <ul class="agileits_social_list custom-manu">
+                    <li><a href="#" class="w3_agile_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a href="#" class="agile_twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a href="#" class="w3_agile_dribble"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+                    <li><a href="#" class="w3_agile_vimeo"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
+                </ul>
+-->
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar custom-class">
+                    <li>
+                        <a href="about.html">WHY ARTWOOD |<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li>
+                        <a href="contact.html">WHO ARE WE |<span class="sr-only"></span></a>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">MADE TO ORDER<span class="caret"></span> |</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="gallery.html">CLOSET</a></li>
+                            <li><a href="gallery%20-%20Copy%20(2).html">DAYTIME</a></li>
+                            <li><a href="gallery%20-%20Copy%20(3).html">HOSPITALITY</a></li>
+                            <li><a href="gallery%20-%20Copy%20(4).html">INTERIORS</a></li>
+                            <li><a href="gallery%20-%20Copy%20(5).html">IMTERNAL DOORS</a></li>
+                            <li><a href="gallery%20-%20Copy%20(6).html">KITCHENS</a></li>
+                            <li><a href="gallery%20-%20Copy%20(7).html">LOWER DOORS</a></li>
+                            <li><a href="gallery%20-%20Copy%20(8).html">NIGHT TIME</a></li>
+                            <li><a href="gallery%20-%20Copy%20(9).html">PANELLING</a></li>
+                            <li><a href="gallery%20-%20Copy%20(10).html">SHUTTERS</a></li>
+                            <li><a href="gallery%20-%20Copy%20(11).html">VANITY</a></li>
+                            <li><a href="gallery%20-%20Copy%20(12).html">WALK IN CABINETS</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">HOW WE DO IT |</a>
+                    </li>
+                    <li>
+                        <a href="#">CUSTOMER SPEAK |</a>
+                    </li>
+                    <li>
+                        <a href="#">QUALiTY CERTIFICATION |</a>
+                    </li>
+                    <li>
+                        <a href="#">GET IN TOUCH |</a>
+                    </li>
+                    <li>
+                        <a href="#">MISSION |</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
     <!--//w3_short-->
     <!-- banner-bottom -->
     <div id="about" class="banner-bottom">
         <div class="container">
             <div class="agileits_w3layouts_heding">
-                <h3><span>HOSPITALITY</span></h3> </div>
+                <h3><span>HOSPITALITY</span></h3>
+            </div>
             <!-- portfolio -->
             <ul class="gallery_agile">
                 <li>
@@ -145,7 +272,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <!-- //banner-bottom -->
     <!-- newsletter -->
     <!-- //newsletter -->
-    <!-- footer --><div class="w3_agile_footer"style="
+    <!-- footer -->
+    <div class="w3_agile_footer" style="
     margin: -21px;
 ">
         <div class="container">
@@ -159,7 +287,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             </div>-->
         </div>
     </div>
-   
+
     <!-- //footer -->
     <!-- js -->
     <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
@@ -169,7 +297,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <link rel="stylesheet " href="css/chocolat.css " type="text/css " media="screen ">
     <!--light-box-files -->
     <script type="text/javascript ">
-        $(function () {
+        $(function() {
             $('.w3_agile_portfolio_grid a').Chocolat();
         });
     </script>
@@ -182,8 +310,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <!-- //for bootstrap working -->
     <!-- start-smooth-scrolling -->
     <script type="text/javascript">
-        jQuery(document).ready(function ($) {
-            $(".scroll").click(function (event) {
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event) {
                 event.preventDefault();
                 $('html,body').animate({
                     scrollTop: $(this.hash).offset().top

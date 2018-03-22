@@ -1361,7 +1361,7 @@ a.w3_agile_vimeo:hover {
 /*-- banner-bottom --*/
 
 .banner-bottom {
-    padding: 5em 0 5em 0;
+    padding: 10em 0 5em 0;
 }
 
 .w3_banner_bottom_grid_pos {
@@ -3431,7 +3431,7 @@ h2.typoh2 {
     .testimonials,
     .contact,
     .banner-bottom {
-        padding: 4em 0;
+        padding: 10em 0 2em;
     }
     .w3l_banner_bottom_right {
         margin: 5em 0 0;
@@ -3575,7 +3575,7 @@ h2.typoh2 {
     .testimonials,
     .contact,
     .banner-bottom {
-        padding: 3em 0;
+        padding: 10em 0 3em;
     }
     .w3_banner_bottom_grid h3 {
         font-size: 3.8em;
@@ -4117,7 +4117,7 @@ h2.typoh2 {
     .testimonials,
     .contact,
     .banner-bottom {
-        padding: 2em 0;
+        padding: 13em 0 0;
     }
     .w3_banner_bottom_grid h3 {
         font-size: 3.4em;
