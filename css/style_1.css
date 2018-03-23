@@ -307,7 +307,7 @@ h1 {
     display: inline-block;
     float: right;
     padding-left: 4em;
-        margin-top: -10px;
+    margin-top: -4px;
 }
 .custom-manu{
     width: 50%
@@ -471,7 +471,8 @@ a.w3_agile_vimeo i:hover {
 /*-- banner-top --*/
 
 .w3layouts-banner-top1 {
-    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)),url(../images/twonine1.jpg) no-repeat 0px 0px;
+/*    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)),url(../images/twonine1.jpg) no-repeat 0px 0px;*/
+        background: url(../images/twonine1.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -482,7 +483,8 @@ a.w3_agile_vimeo i:hover {
 }
 
 .w3layouts-banner-top1 {
-    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.67)),url(../images/slider11.jpg) no-repeat 0px 0px;
+/*    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.67)),url(../images/slider11.jpg) no-repeat 0px 0px;*/
+    background: url(../images/slider11.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -494,7 +496,8 @@ a.w3_agile_vimeo i:hover {
 }
 
 .w3layouts-banner-top2 {
-    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.67)),url(../images/slider12.jpg) no-repeat 0px 0px;
+/*    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.67)),url(../images/slider12.jpg) no-repeat 0px 0px;*/
+    background: url(../images/slider12.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -505,7 +508,8 @@ a.w3_agile_vimeo i:hover {
 }
 
 .w3layouts-banner-top3 {
-    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.67)),url(../images/slider13.jpg) no-repeat 0px 0px;
+/*    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.67)),url(../images/slider13.jpg) no-repeat 0px 0px;*/
+    background: url(../images/slider13.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -3240,7 +3244,7 @@ h2.typoh2 {
     .w3layouts-banner-top1,
     .w3layouts-banner-top2,
     .w3layouts-banner-top3 {
-        min-height: 492px;
+        min-height: 505px;
     }
     .agileits-banner-info h3 {
         font-size: 2.8em;
@@ -4245,7 +4249,7 @@ h2.typoh2 {
         display: inline-block;
         float: left;
         padding-left: 1.7em;
-        margin-top: 20px;
+        margin-top: 45px;
     }
     .agileits-banner-info a {
         padding: 6px 9px;
@@ -4817,6 +4821,10 @@ ul.dropdown-menu {
     padding: 1em 0 !important;
     
 }
+.navbar-default {
+/*        background-color: #2a4557;*/
+        border-color: #e7e7e7;
+    }
 /*
 @media (max-width: 480px)
 .agileinfo_social_icons, .w3_agileits_header_text, .agileits_w3layouts_logo {
