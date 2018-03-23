@@ -471,8 +471,8 @@ a.w3_agile_vimeo i:hover {
 /*-- banner-top --*/
 
 .w3layouts-banner-top1 {
-/*    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)),url(../images/twonine1.jpg) no-repeat 0px 0px;*/
-        background: url(../images/twonine1.jpg) no-repeat 0px 0px;
+
+ background: url(../images/1.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -482,9 +482,9 @@ a.w3_agile_vimeo i:hover {
 /*    opacity: 0.4;*/
 }
 
-.w3layouts-banner-top1 {
+.w3layouts-banner-top2 {
 /*    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.67)),url(../images/slider11.jpg) no-repeat 0px 0px;*/
-    background: url(../images/slider11.jpg) no-repeat 0px 0px;
+    background: url(../images/2.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -495,9 +495,9 @@ a.w3_agile_vimeo i:hover {
 /*    opacity: 0.4;*/
 }
 
-.w3layouts-banner-top2 {
+.w3layouts-banner-top3 {
 /*    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.67)),url(../images/slider12.jpg) no-repeat 0px 0px;*/
-    background: url(../images/slider12.jpg) no-repeat 0px 0px;
+    background: url(../images/3.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -507,9 +507,19 @@ a.w3_agile_vimeo i:hover {
 /*    opacity: 0.4;*/
 }
 
-.w3layouts-banner-top3 {
+.w3layouts-banner-top4 {
 /*    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.67)),url(../images/slider13.jpg) no-repeat 0px 0px;*/
-    background: url(../images/slider13.jpg) no-repeat 0px 0px;
+    background: url(../images/4.jpg)no-repeat 0px 0px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    min-height: 780px;
+}
+.w3layouts-banner-top5 {
+/*    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.67)),url(../images/slider13.jpg) no-repeat 0px 0px;*/
+    background: url(../images/5.jpg)no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -3244,7 +3254,7 @@ h2.typoh2 {
     .w3layouts-banner-top1,
     .w3layouts-banner-top2,
     .w3layouts-banner-top3 {
-        min-height: 505px;
+       /* min-height: 505px;*/
     }
     .agileits-banner-info h3 {
         font-size: 2.8em;
