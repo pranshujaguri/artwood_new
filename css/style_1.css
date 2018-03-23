@@ -4830,6 +4830,11 @@ ul.dropdown-menu {
     padding-bottom: 15px;
     font-size: 1vw;
 }
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 13px 11px;
+}
 /*
 @media (max-width: 480px)
 .agileinfo_social_icons, .w3_agileits_header_text, .agileits_w3layouts_logo {
