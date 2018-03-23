@@ -4825,6 +4825,11 @@ ul.dropdown-menu {
 /*        background-color: #2a4557;*/
         border-color: #e7e7e7;
     }
+.navbar-nav > li > a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 1vw;
+}
 /*
 @media (max-width: 480px)
 .agileinfo_social_icons, .w3_agileits_header_text, .agileits_w3layouts_logo {
