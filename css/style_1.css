@@ -3296,7 +3296,7 @@ h2.typoh2 {
     .w3_agileits_header_text,
     .agileits_w3layouts_logo {
         display: inline-block;
-        float: left;
+        float: right;
         padding-left: 3em;
     }
     .w3_banner_bottom_grid p {
