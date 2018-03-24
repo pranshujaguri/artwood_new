@@ -4891,3 +4891,83 @@ ul.dropdown-menu {
     padding-left: 1.7em;
 }
 */
+#Choco_overlay {
+    background: #0a0a0a !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1199 !important;
+    width: 100%;
+    height: 100%;
+    display: none;
+    padding: 0;
+    margin: 0;
+}
+#Choco_content {
+    display: none;
+    width: 800px;
+    height: 600px;
+    z-index: 1200 !important;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-left: -400px;
+    margin-top: -300px;
+    border-top: 1px solid transparent;
+}
+.gal_background{
+    position: absolute;
+    top: 25%;
+    padding: 0em 55em 3em 3em;
+/*    background-color: rgba(247, 244, 244, 0.48)*/
+}
+.gal_background ul{
+    list-style: none;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.59);
+    border: 7px solid;
+    border-spacing: 10px 10px;
+/*    border-image-width: 5px;*/
+    border-color: rgba(255, 255, 255, 0.59);
+/*    background-color: rgba(12, 12, 12, 0.4);*/
+}
+.gal_background ul li{
+/*    color: #2a4555;*/
+/*    color: white;*/
+    color: black;
+    font-size: 15px;
+/*    font-weight: 600;*/
+    padding: 15px 0 15px 0;
+    font-family: 'kalinga', sans-serif;
+}
+.banner_bg{
+    position: fixed;
+    top: 60px;
+/*    opacity: 0.8;*/
+}
+
+.gal_background1{
+    position: absolute;
+    top: 25%;
+    padding: 0em 3em 3em 55em;
+/*    background-color: rgba(247, 244, 244, 0.48)*/
+}
+.gal_background1 ul{
+    list-style: none;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.59);
+    border: 7px solid;
+    border-spacing: 10px 10px;
+/*    border-image-width: 5px;*/
+    border-color: rgba(255, 255, 255, 0.59);
+/*    background-color: rgba(12, 12, 12, 0.4);*/
+}
+.gal_background1 ul li{
+/*    color: #2a4555;*/
+/*    color: white;*/
+    color: black;
+    font-size: 15px;
+/*    font-weight: 600;*/
+    padding: 15px 0 15px 0;
+    font-family: 'kalinga', sans-serif;
+}
