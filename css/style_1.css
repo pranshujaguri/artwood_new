@@ -472,60 +472,74 @@ a.w3_agile_vimeo i:hover {
 
 .w3layouts-banner-top1 {
 
- background: url(../images/1.jpg) no-repeat 0px 0px;
+ background: url(../images/new_image/1.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
-    min-height: 780px;
+    margin-top: 5em;
+    background-size: 1400px 750px;
+/*    min-height: 604px;*/
+    min-height: 750px;
 /*    opacity: 0.4;*/
 }
 
 .w3layouts-banner-top2 {
 /*    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.67)),url(../images/slider11.jpg) no-repeat 0px 0px;*/
-    background: url(../images/2.jpg) no-repeat 0px 0px;
+    background: url(../images/new_image/2.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
-    min-height: 780px;
-    
+    background-size: 1400px 750px;
+    margin-top: 5em;
+/*    min-height: 604px;*/
+    min-height: 750px;
+/*    overflow: hidden;*/
 /*    opacity: 0.4;*/
 }
 
 .w3layouts-banner-top3 {
 /*    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.67)),url(../images/slider12.jpg) no-repeat 0px 0px;*/
-    background: url(../images/3.jpg) no-repeat 0px 0px;
+    background: url(../images/new_image/3.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
-    min-height: 780px;
+    background-size: 1400px 750px;
+    margin-top: 5em;
+/*    min-height: 604px;*/
+    min-height: 750px;
 /*    opacity: 0.4;*/
 }
 
 .w3layouts-banner-top4 {
 /*    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.67)),url(../images/slider13.jpg) no-repeat 0px 0px;*/
-    background: url(../images/4.jpg)no-repeat 0px 0px;
+    background: url(../images/new_image/4.jpg)no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
-    min-height: 780px;
+    background-size: 1400px 750px;
+    margin-top: 5em;
+    min-height: 750px;
 }
 .w3layouts-banner-top5 {
 /*    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.67)),url(../images/slider13.jpg) no-repeat 0px 0px;*/
-    background: url(../images/5.jpg)no-repeat 0px 0px;
+    background: url(../images/new_image/5.jpg)no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
-    min-height: 780px;
+    background-size: 1400px 750px;
+    margin-top: 5em;
+    min-height: 750px;
+/*    min-height: 900px;*/
 }
 
 
@@ -751,18 +765,18 @@ a.w3_agile_vimeo i:hover {
 }
 
 .agileits-banner-info h3 {
-    color: #fff;
-    font-size: 3em;
+    color: black;
+    font-size: 20px;
     width: 75%;
     line-height: 60px;
-    margin: 0.1em 0 0.2em 0;
-    letter-spacing: 8px;
+    margin: -28px 0 0 0;
+    letter-spacing: 1px !important;
     text-transform: uppercase;
     font-weight: 300;
-    text-shadow: 1px 1px 2px rgb(12, 12, 12);
-    -webkit-text-shadow: 1px 1px 2px rgb(12, 12, 12);
-    -o-text-shadow: 1px 1px 2px rgb(12, 12, 12);
-    -moz-text-shadow: 1px 1px 2px rgb(12, 12, 12);
+    text-shadow: 0px 0px 1px rgb(12, 12, 12);
+    -webkit-text-shadow: 0px 0px 1px rgb(12, 12, 12);
+    -o-text-shadow: 0px 0px 1px rgb(12, 12, 12);
+    -moz-text-shadow: 0px 0px 1px rgb(12, 12, 12);
 }
 
 .agileits-banner-info h3 span {
@@ -778,13 +792,23 @@ a.w3_agile_vimeo i:hover {
 }
 
 .agileits-banner-info p {
-    color: #fff;
+    color: black;
     font-size: 1.2em;
-    letter-spacing: 5px;
-    font-weight: 600;
+    letter-spacing: 1px;
+    font-weight: 800;
     text-align: left;
-    margin: 2em auto;
+    margin: 0em 30em 0 0px;
 }
+/*
+.agileits-banner-info p:nth-child(2) {
+    color: black;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    font-weight: 800;
+    text-align: left;
+    margin: 10px 30em 0 -7px;
+}
+*/
 
 .agileits-banner-info a {
     color: #fff;
@@ -880,7 +904,7 @@ button#trigger-overlay i {
     color: #212121;
     text-align: center;
     display: inline-block;
-    font-size: 1.2em;
+    font-size: 2em;
 }
 
 a.w3_agile_facebook:hover {
@@ -2630,6 +2654,18 @@ h3.agileits-icons-title {
         width: 33.33%;
     }
 }
+/*
+@media (min-width:1333px) {
+    .agileits-banner-info p {
+        color: black;
+        font-size: 1.2em;
+        letter-spacing: 1px;
+        font-weight: 800;
+        text-align: left;
+        margin: 9em 30em 0 -9px;
+    }
+}
+*/
 
 @media (max-width:991px) {
     h3.agileits-icons-title {
@@ -3107,6 +3143,8 @@ h2.typoh2 {
     background: #2a4557;
     position: relative;
     bottom: 0px;
+/*    position: inherit;*/
+    z-index: 2;
    /* width: 100%;*/
 }
 
@@ -3257,8 +3295,8 @@ h2.typoh2 {
        /* min-height: 505px;*/
     }
     .agileits-banner-info h3 {
-        font-size: 2.8em;
-        width: 80%;
+        font-size: 35px;
+        width: 90%;
         letter-spacing: 6px;
     }
     .agileits_w3layouts_heding.two h3 {
