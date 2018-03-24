@@ -480,6 +480,7 @@ a.w3_agile_vimeo i:hover {
     -moz-background-size: cover;
     margin-top: 5em;
     background-size: 1400px 750px;
+/*    background-size: contain;*/
 /*    min-height: 604px;*/
     min-height: 750px;
 /*    opacity: 0.4;*/
@@ -494,6 +495,7 @@ a.w3_agile_vimeo i:hover {
     -o-background-size: cover;
     -moz-background-size: cover;
     background-size: 1400px 750px;
+/*    background-size: contain;*/
     margin-top: 5em;
 /*    min-height: 604px;*/
     min-height: 750px;
@@ -510,6 +512,7 @@ a.w3_agile_vimeo i:hover {
     -o-background-size: cover;
     -moz-background-size: cover;
     background-size: 1400px 750px;
+/*    background-size: contain;*/
     margin-top: 5em;
 /*    min-height: 604px;*/
     min-height: 750px;
@@ -525,6 +528,7 @@ a.w3_agile_vimeo i:hover {
     -o-background-size: cover;
     -moz-background-size: cover;
     background-size: 1400px 750px;
+/*    background-size: contain;*/
     margin-top: 5em;
     min-height: 750px;
 }
@@ -537,6 +541,7 @@ a.w3_agile_vimeo i:hover {
     -o-background-size: cover;
     -moz-background-size: cover;
     background-size: 1400px 750px;
+/*    background-size: contain;*/
     margin-top: 5em;
     min-height: 750px;
 /*    min-height: 900px;*/
@@ -1817,6 +1822,11 @@ ul.gallery_agile li {
     list-style: none;
     display: inline-block;
     width: 33%;
+    
+}
+
+.gallery_agile{
+    margin: 0px;
 }
 
 
@@ -1825,6 +1835,10 @@ ul.gallery_agile li {
 .w3_agile_portfolio_grid {
     overflow: hidden;
     position: relative;
+}
+.w3_agile_portfolio_grid a img{
+    height: 250px !important;
+    width: 375px !important;
 }
 
 .w3layouts_news_grid_pos {
@@ -4970,4 +4984,21 @@ ul.dropdown-menu {
 /*    font-weight: 600;*/
     padding: 15px 0 15px 0;
     font-family: 'kalinga', sans-serif;
+}
+.page_head_name {
+    background-color: rgba(251, 178, 74, 0.31);
+    padding: 10px 0;
+    border: 2px solid;
+    margin-bottom: 15px;
+    border-color: rgba(251, 156, 74, 0.41);
+}
+.page_head_name span{
+    margin: 0px;
+    padding: 5px 20px 5px 20px;
+    border-right: 2px solid;
+    line-height: 1;
+    font-weight: 600px !important;
+    background-color: rgba(251, 178, 74, 0.31);
+/*    border-width: 2px;*/
+    border-color: rgba(251, 156, 74, 0.41);
 }
