@@ -556,7 +556,20 @@ a.w3_agile_vimeo i:hover {
     min-height: 750px;
 /*    min-height: 900px;*/
 }
-
+.w3layouts-banner-top6 {
+/*    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.67)),url(../images/slider13.jpg) no-repeat 0px 0px;*/
+    background: url(../images/INTERIORS/life_1.jpg)no-repeat 0px 0px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-size: 1400px 750px;
+/*    background-size: contain;*/
+    margin-top: 5em;
+    min-height: 750px;
+/*    min-height: 900px;*/
+}
 
 /*-- //banner-top --*/
 
