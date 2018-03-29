@@ -6,6 +6,16 @@ body {
     margin: 0;
 }
 
+
+.dropdown-menu > li > a {
+    display: block;
+    padding: 3px 0px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.42857143;
+    color: #f8f8f8;
+    white-space: nowrap;
+}
 p,
 ul li,
 ol li {
